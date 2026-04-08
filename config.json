@@ -1,0 +1,20 @@
+{
+  "name": "multi-omics-briefing",
+  "version": "1.0.0",
+  "description": "每日多组学研究简报自动生成 Skill",
+  "author": "胖达",
+  "license": "MIT",
+  "keywords": ["bioinformatics", "multi-omics", "research", "briefing"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OnlyPandaX/multi-omics-briefing.git"
+  },
+  "scripts": {
+    "generate": "python scripts/generate_briefing.py",
+    "push": "bash scripts/auto-push-briefing.sh"
+  },
+  "dependencies": {},
+  "engines": {
+    "python": ">=3.8"
+  }
+}
