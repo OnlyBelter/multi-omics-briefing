@@ -10,6 +10,14 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+def get_iso_week_path(date_str):
+    """根据日期生成 YYYY/MM/YYYY-Wxx/ 子目录路径"""
+    dt = datetime.strptime(date_str, "%Y-%m-%d")
+    year = dt.year
+    month = dt.month
+    week = dt.isocalendar()[1]  # ISO 周数
+    return f"{year}/{month:02d}/{year}-W{week:02d}/"
+
 # 配置
 CONFIG = {
     "search_keywords": [
@@ -18,21 +26,20 @@ CONFIG = {
         "single-cell", "spatial transcriptomics", "AI biology"
     ],
     "sources": ["nature.com", "arxiv.org"],
-    "output_dir": os.path.expanduser("~/Documents/bioinformatics-frontier/reports"),
+    "base_dir": os.path.expanduser("~/Documents/bioinformatics-frontier/reports"),
     "max_papers": 5
 }
 
 def generate_briefing():
     """生成简报主函数"""
     today = datetime.now().strftime("%Y-%m-%d")
-    output_file = os.path.join(CONFIG["output_dir"], f"{today}-multiomics-briefing.md")
-    
-    # 确保输出目录存在
-    os.makedirs(CONFIG["output_dir"], exist_ok=True)
-    
-    # 这里应该调用搜索工具获取论文
-    # 实际实现由 AI agent 完成
-    
+    week_subdir = get_iso_week_path(today)
+    output_dir = os.path.join(CONFIG["base_dir"], week_subdir)
+    output_file = os.path.join(output_dir, f"{today}-multiomics-briefing.md")
+
+    # 确保输出目录存在（含子目录）
+    os.makedirs(output_dir, exist_ok=True)
+
     print(f"[generate_briefing] 简报将保存到: {output_file}")
     return output_file
 
