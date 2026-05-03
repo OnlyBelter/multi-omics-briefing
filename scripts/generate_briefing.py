@@ -25,7 +25,7 @@ CONFIG = {
         "genomics", "transcriptomics", "proteomics", "metabolomics",
         "single-cell", "spatial transcriptomics", "AI biology"
     ],
-    "sources": ["nature.com", "arxiv.org"],
+    "sources": ["nature.com", "arxiv.org", "biorxiv.org", "medrxiv.org"],
     "base_dir": os.path.expanduser("~/Documents/bioinformatics-frontier/reports"),
     "max_papers": 5
 }

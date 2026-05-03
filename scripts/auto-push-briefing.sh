@@ -1,13 +1,18 @@
 #!/bin/bash
-# auto-push-briefing.sh
-# 自动推送多组学简报到 GitHub
+# auto-push-briefing.sh v1.2.0
+# 自动推送多组学简报到 GitHub（YYYY/MM/YYYY-Wxx/ 结构）
 # 用法: bash auto-push-briefing.sh
 
 set -euo pipefail
 
 REPO_DIR="$HOME/Documents/bioinformatics-frontier"
 DATE=$(date +%Y-%m-%d)
-REPORT_FILE="$REPO_DIR/reports/$DATE-multiomics-briefing.md"
+YEAR=$(date +%Y)
+MONTH=$(date +%m)
+WEEK=$(date +%V)
+
+# v1.2.0: 按 YYYY/MM/YYYY-Wxx/ 结构归档
+REPORT_FILE="$REPO_DIR/reports/$YEAR/$MONTH/${YEAR}-W$WEEK/${DATE}-multiomics-briefing.md"
 
 # 检查文件是否存在
 if [ ! -f "$REPORT_FILE" ]; then
@@ -17,7 +22,7 @@ fi
 
 # 推送到 GitHub
 cd "$REPO_DIR"
-git add "reports/$DATE-multiomics-briefing.md"
+git add "reports/$YEAR/$MONTH/${YEAR}-W$WEEK/${DATE}-multiomics-briefing.md"
 
 if git diff --cached --quiet; then
   echo "[auto-push] 内容无变化，跳过推送"
