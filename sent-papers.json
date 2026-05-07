@@ -567,5 +567,145 @@
     "sent_date": "2026-05-03",
     "reason": "实证检验AI药物发现规模假设，22个分子性质终点",
     "notes": "ArXiv, 29 Apr 2026 - AI for Biology反思性研究"
+  },
+  {
+    "title": "TorchLIMIX: GPU-accelerated multivariate genome-wide association studies",
+    "doi": "10.64898/2026.04.29.721342",
+    "sent_date": "2026-05-04",
+    "reason": "GPU加速多变量GWAS，比CPU版快100倍，拟南芥代谢组学验证",
+    "notes": "bioRxiv Bioinformatics, 2 May 2026"
+  },
+  {
+    "title": "Distinct functions of PBRM1 and BAP1 reconcile the course of kidney cancer evolution and disease progression",
+    "doi": "10.64898/2026.04.30.721837",
+    "sent_date": "2026-05-04",
+    "reason": "多组学整合（bulk+单细胞+表观组）揭示ccRCC两种进化轨迹的分子机制",
+    "notes": "bioRxiv Cancer Biology, 3 May 2026"
+  },
+  {
+    "title": "Sex differences in the genetic basis of human recombination within 190,000 parent-child pairs",
+    "doi": "10.64898/2026.04.30.721836",
+    "sent_date": "2026-05-04",
+    "reason": "19万亲子对人类重组GWAS，首次系统揭示性别差异遗传基础",
+    "notes": "bioRxiv Genomics, 2 May 2026"
+  },
+  {
+    "title": "Cell-free DNA fragmentomics for preeclampsia risk assessment",
+    "doi": "s41467-026-72682-4",
+    "sent_date": "2026-05-04",
+    "reason": "cfDNA片段组学预测子痫前期风险，NIPT数据深度挖掘",
+    "notes": "Nature Communications, 2 May 2026"
+  },
+  {
+    "title": "The Unified Human Virome Database: A toolkit for expanded human virome analysis",
+    "doi": "10.64898/2026.05.01.722327",
+    "sent_date": "2026-05-04",
+    "reason": "57.5万高质量病毒基因组数据库，突破肠道为主的局限",
+    "notes": "bioRxiv Microbiology, 2 May 2026"
+  },
+  {
+    "title": "Evolutionary characterization of lung cancer metastasis",
+    "doi": "s41586-026-10428-4",
+    "sent_date": "2026-05-05",
+    "reason": "TRACERx+PEACE联合队列24例NSCLC全病程WES追踪，501区域解析转移进化",
+    "notes": "Nature, 29 Apr 2026"
+  },
+  {
+    "title": "Beyond Continuity: Simulation-free Reconstruction of Discrete Branching Dynamics from Single-cell Snapshots",
+    "arxiv_id": "2605.00545",
+    "sent_date": "2026-05-05",
+    "reason": "USB框架统一不平衡Schrödinger桥与分支过程，单细胞分辨率离散出生-死亡建模",
+    "notes": "ArXiv (cs.LG; q-bio.GN; q-bio.QM), 1 May 2026"
+  },
+  {
+    "title": "DoFormer: Causal Transformer for Gene Perturbation Effect Prediction",
+    "doi": "10.64898/2026.05.02.722569",
+    "sent_date": "2026-05-05",
+    "reason": "因果Transformer预测基因扰动效应，整合观测与干预数据",
+    "notes": "bioRxiv Bioinformatics, 4 May 2026"
+  },
+  {
+    "title": "MOSAIC: Model-based, Subgroup-Aware Identification of Driver Mutations in Cancer",
+    "doi": "10.64898/2026.04.29.721672",
+    "sent_date": "2026-05-05",
+    "reason": "亚组感知互斥性分析识别癌症驱动突变，控制假阳性",
+    "notes": "bioRxiv Bioinformatics, 3 May 2026"
+  },
+  {
+    "title": "Agentic systems are adept at solving well-scoped, verifiable problems in computational biology",
+    "doi": "10.64898/2026.05.01.722197",
+    "sent_date": "2026-05-05",
+    "reason": "CompBioBench基准评估AI Agent在计算生物学中的能力边界",
+    "notes": "bioRxiv Computational Biology, 3 May 2026"
+  },
+  {
+    "title": "spatiAlytica: Viewer-Grounded Multimodal Agentic System for Interactive Spatial Omics Analysis",
+    "doi": "10.64898/2026.04.29.721735",
+    "sent_date": "2026-05-06",
+    "reason": "AI Agent+空间组学分析范式转变，Napari嵌入+自然语言交互",
+    "notes": "bioRxiv Bioinformatics, 4 May 2026"
+  },
+  {
+    "title": "ORBIT: Self-supervised transformer for learning asymmetric dependencies among gene programs",
+    "arxiv_id": "2605.02142",
+    "sent_date": "2026-05-06",
+    "reason": "自监督学习基因程序非对称依赖，纯观测scRNA-seq因果发现",
+    "notes": "ArXiv q-bio.QM, 5 May 2026"
+  },
+  {
+    "title": "Reconstructing clone-resolved transcriptional programs from bulk tumor sequencing",
+    "doi": "10.64898/2026.01.15.699695",
+    "sent_date": "2026-05-06",
+    "reason": "DNA克隆系统发育+bulk RNA-seq恢复克隆特异性表达，TRACERx验证",
+    "notes": "bioRxiv Genomics v2, 4 May 2026"
+  },
+  {
+    "title": "Genome-wide chromatin recording resolves dynamic cell state changes (LagTag)",
+    "doi": "10.1101/2025.08.05.668773",
+    "sent_date": "2026-05-06",
+    "reason": "时间分辨染色质记录方法，细菌甲基转移酶作时间戳",
+    "notes": "bioRxiv Genomics v2, 4 May 2026"
+  },
+  {
+    "title": "GENERator-v2: Reconciling Coarse Tokenization with Single-Nucleotide Resolution in Genomic Language Modeling",
+    "doi": "10.64898/2026.01.27.702015",
+    "sent_date": "2026-05-06",
+    "reason": "FNS+GCP解决基因组语言模型三难困境，98k bp上下文",
+    "notes": "bioRxiv Genomics v2, 4 May 2026"
+  },
+  {
+    "title": "Lamins and lineage-relevant transcription factors coordinate gene expression in lineage development",
+    "doi": "10.64898/2026.04.30.722071",
+    "sent_date": "2026-05-07",
+    "reason": "核纤层蛋白Lamin调控谱系特异性基因表达，3D基因组结构与转录因子协同机制的重要突破",
+    "notes": "bioRxiv Developmental Biology, 5 May 2026"
+  },
+  {
+    "title": "H3K9me3 as a gatekeeper of lineage-specific enhancers in embryonic progenitor cells",
+    "doi": "10.64898/2026.05.03.722466",
+    "sent_date": "2026-05-07",
+    "reason": "表观遗传抑制作为发育准备机制，H3K9me3在增强子层面的gatekeeper功能",
+    "notes": "bioRxiv Developmental Biology, 5 May 2026 - Zaret Lab"
+  },
+  {
+    "title": "A novel metric reveals previously unrecognized distortion in dimensionality reduction of scRNA-Seq data",
+    "doi": "10.1101/689851",
+    "sent_date": "2026-05-07",
+    "reason": "单细胞降维>95%失真量化，方法论反思，提醒不可迷信UMAP可视化生物学解释",
+    "notes": "bioRxiv Bioinformatics v7, 5 May 2026"
+  },
+  {
+    "title": "Multi-omics profiling reveals MAGEL2-driven defects in human corticogenesis shared across Prader-Willi and Schaaf-Yang syndromes",
+    "doi": "10.64898/2026.05.01.722223",
+    "sent_date": "2026-05-07",
+    "reason": "多组学整合解析MAGEL2神经发育缺陷，mTOR通路为枢纽，桥接两种综合征",
+    "notes": "bioRxiv Neuroscience, 5 May 2026"
+  },
+  {
+    "title": "Expanding the human proteome with microproteins and peptideins",
+    "doi": "10.1038/s41586-026-10459-x",
+    "sent_date": "2026-05-07",
+    "reason": "TransCODE联盟大规模暗蛋白质组注释，人类蛋白质组边界显著扩展",
+    "notes": "Nature, 6 May 2026 - TransCODE Consortium"
   }
 ]
